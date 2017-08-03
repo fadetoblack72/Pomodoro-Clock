@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  color: White;
+  background-color: gray;
+}
+
+#break {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+#work {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+button {
+  background: none !important;
+  color: inherit;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.clock {
+  border-radius: 50%;
+  border: 3px solid #5F9F9F;
+  width: 30%;
+  margin-left: 35%;
+  background-color: darkgreen;
+}
+
+#status {
+  font-size: 3em;
+  padding-top: 0px;
+}
+
+#time {
+  font-size: 2.8em;
+  padding-top: 15px;
+}
+
+#end {
+  display: none;
+}

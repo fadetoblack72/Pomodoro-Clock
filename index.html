@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script>
+<h1>Pomodoro Clock</h1>
+<div>
+  <div id="break">
+    <p>Break Length</p>
+    <h2><button id="minusBreak">-</button> <span id="breaklength">5</span> <button id="plusBreak">+</button><h2>
+  </div>
+  <div id="work">
+    <p>Work Session Length</p>
+    <h2><button id="minusWork">-</button> <span id="session">25</span> <button id="plusWork">+</button></h2>
+  </div>
+</div>
+<div class="clock">
+  <p id="status">Session</p>
+  <p id="time">25</p>
+  <button id="start">Begin!</button>
+  <button id="end">Stop Timer</button>
+</div>
+<script src="scripts.js"></script>
+</body>
